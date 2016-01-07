@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525177B91C3F273400D29245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177B81C3F273400D29245 /* AppDelegate.swift */; };
+		525177BB1C3F273400D29245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177BA1C3F273400D29245 /* ViewController.swift */; };
+		525177BE1C3F273400D29245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177BC1C3F273400D29245 /* Main.storyboard */; };
+		525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 525177BF1C3F273400D29245 /* Kyngo.xcdatamodeld */; };
+		525177C31C3F273400D29245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525177C21C3F273400D29245 /* Assets.xcassets */; };
+		525177C61C3F273400D29245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177C41C3F273400D29245 /* LaunchScreen.storyboard */; };
+		525177D11C3F273400D29245 /* KyngoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177D01C3F273400D29245 /* KyngoTests.swift */; };
+		525177DC1C3F273400D29245 /* KyngoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177DB1C3F273400D29245 /* KyngoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525177CD1C3F273400D29245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525177AD1C3F273400D29245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525177B41C3F273400D29245;
+			remoteInfo = Kyngo;
+		};
+		525177D81C3F273400D29245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525177AD1C3F273400D29245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525177B41C3F273400D29245;
+			remoteInfo = Kyngo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525177B51C3F273400D29245 /* Kyngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525177B81C3F273400D29245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525177BA1C3F273400D29245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525177BD1C3F273400D29245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525177C01C3F273400D29245 /* Kyngo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kyngo.xcdatamodel; sourceTree = "<group>"; };
+		525177C21C3F273400D29245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525177C51C3F273400D29245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525177C71C3F273400D29245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525177CC1C3F273400D29245 /* KyngoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyngoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525177D01C3F273400D29245 /* KyngoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoTests.swift; sourceTree = "<group>"; };
+		525177D21C3F273400D29245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525177D71C3F273400D29245 /* KyngoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyngoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525177DB1C3F273400D29245 /* KyngoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoUITests.swift; sourceTree = "<group>"; };
+		525177DD1C3F273400D29245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525177B21C3F273400D29245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177C91C3F273400D29245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177D41C3F273400D29245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525177AC1C3F273400D29245 = {
+			isa = PBXGroup;
+			children = (
+				525177B71C3F273400D29245 /* Kyngo */,
+				525177CF1C3F273400D29245 /* KyngoTests */,
+				525177DA1C3F273400D29245 /* KyngoUITests */,
+				525177B61C3F273400D29245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525177B61C3F273400D29245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525177B51C3F273400D29245 /* Kyngo.app */,
+				525177CC1C3F273400D29245 /* KyngoTests.xctest */,
+				525177D71C3F273400D29245 /* KyngoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525177B71C3F273400D29245 /* Kyngo */ = {
+			isa = PBXGroup;
+			children = (
+				525177B81C3F273400D29245 /* AppDelegate.swift */,
+				525177BA1C3F273400D29245 /* ViewController.swift */,
+				525177BC1C3F273400D29245 /* Main.storyboard */,
+				525177C21C3F273400D29245 /* Assets.xcassets */,
+				525177C41C3F273400D29245 /* LaunchScreen.storyboard */,
+				525177C71C3F273400D29245 /* Info.plist */,
+				525177BF1C3F273400D29245 /* Kyngo.xcdatamodeld */,
+			);
+			path = Kyngo;
+			sourceTree = "<group>";
+		};
+		525177CF1C3F273400D29245 /* KyngoTests */ = {
+			isa = PBXGroup;
+			children = (
+				525177D01C3F273400D29245 /* KyngoTests.swift */,
+				525177D21C3F273400D29245 /* Info.plist */,
+			);
+			path = KyngoTests;
+			sourceTree = "<group>";
+		};
+		525177DA1C3F273400D29245 /* KyngoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525177DB1C3F273400D29245 /* KyngoUITests.swift */,
+				525177DD1C3F273400D29245 /* Info.plist */,
+			);
+			path = KyngoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525177B41C3F273400D29245 /* Kyngo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525177E01C3F273400D29245 /* Build configuration list for PBXNativeTarget "Kyngo" */;
+			buildPhases = (
+				525177B11C3F273400D29245 /* Sources */,
+				525177B21C3F273400D29245 /* Frameworks */,
+				525177B31C3F273400D29245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kyngo;
+			productName = Kyngo;
+			productReference = 525177B51C3F273400D29245 /* Kyngo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525177CB1C3F273400D29245 /* KyngoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525177E31C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoTests" */;
+			buildPhases = (
+				525177C81C3F273400D29245 /* Sources */,
+				525177C91C3F273400D29245 /* Frameworks */,
+				525177CA1C3F273400D29245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525177CE1C3F273400D29245 /* PBXTargetDependency */,
+			);
+			name = KyngoTests;
+			productName = KyngoTests;
+			productReference = 525177CC1C3F273400D29245 /* KyngoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525177D61C3F273400D29245 /* KyngoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525177E61C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoUITests" */;
+			buildPhases = (
+				525177D31C3F273400D29245 /* Sources */,
+				525177D41C3F273400D29245 /* Frameworks */,
+				525177D51C3F273400D29245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525177D91C3F273400D29245 /* PBXTargetDependency */,
+			);
+			name = KyngoUITests;
+			productName = KyngoUITests;
+			productReference = 525177D71C3F273400D29245 /* KyngoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525177AD1C3F273400D29245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kyngo;
+				TargetAttributes = {
+					525177B41C3F273400D29245 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					525177CB1C3F273400D29245 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 525177B41C3F273400D29245;
+					};
+					525177D61C3F273400D29245 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 525177B41C3F273400D29245;
+					};
+				};
+			};
+			buildConfigurationList = 525177B01C3F273400D29245 /* Build configuration list for PBXProject "Kyngo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525177AC1C3F273400D29245;
+			productRefGroup = 525177B61C3F273400D29245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525177B41C3F273400D29245 /* Kyngo */,
+				525177CB1C3F273400D29245 /* KyngoTests */,
+				525177D61C3F273400D29245 /* KyngoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525177B31C3F273400D29245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525177C61C3F273400D29245 /* LaunchScreen.storyboard in Resources */,
+				525177C31C3F273400D29245 /* Assets.xcassets in Resources */,
+				525177BE1C3F273400D29245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177CA1C3F273400D29245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177D51C3F273400D29245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525177B11C3F273400D29245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525177BB1C3F273400D29245 /* ViewController.swift in Sources */,
+				525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */,
+				525177B91C3F273400D29245 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177C81C3F273400D29245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525177D11C3F273400D29245 /* KyngoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525177D31C3F273400D29245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525177DC1C3F273400D29245 /* KyngoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525177CE1C3F273400D29245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525177B41C3F273400D29245 /* Kyngo */;
+			targetProxy = 525177CD1C3F273400D29245 /* PBXContainerItemProxy */;
+		};
+		525177D91C3F273400D29245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525177B41C3F273400D29245 /* Kyngo */;
+			targetProxy = 525177D81C3F273400D29245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525177BC1C3F273400D29245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525177BD1C3F273400D29245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525177C41C3F273400D29245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525177C51C3F273400D29245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525177DE1C3F273400D29245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525177DF1C3F273400D29245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525177E11C3F273400D29245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kyngo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.Kyngo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		525177E21C3F273400D29245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kyngo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.Kyngo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		525177E41C3F273400D29245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KyngoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.KyngoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kyngo.app/Kyngo";
+			};
+			name = Debug;
+		};
+		525177E51C3F273400D29245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KyngoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.KyngoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kyngo.app/Kyngo";
+			};
+			name = Release;
+		};
+		525177E71C3F273400D29245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KyngoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.KyngoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kyngo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		525177E81C3F273400D29245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KyngoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.KyngoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kyngo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525177B01C3F273400D29245 /* Build configuration list for PBXProject "Kyngo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525177DE1C3F273400D29245 /* Debug */,
+				525177DF1C3F273400D29245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525177E01C3F273400D29245 /* Build configuration list for PBXNativeTarget "Kyngo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525177E11C3F273400D29245 /* Debug */,
+				525177E21C3F273400D29245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525177E31C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525177E41C3F273400D29245 /* Debug */,
+				525177E51C3F273400D29245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525177E61C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525177E71C3F273400D29245 /* Debug */,
+				525177E81C3F273400D29245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		525177BF1C3F273400D29245 /* Kyngo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				525177C01C3F273400D29245 /* Kyngo.xcdatamodel */,
+			);
+			currentVersion = 525177C01C3F273400D29245 /* Kyngo.xcdatamodel */;
+			path = Kyngo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 525177AD1C3F273400D29245 /* Project object */;
+}

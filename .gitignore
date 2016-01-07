@@ -1,0 +1,6 @@
+Build/
+Kyngo.xcodeproj/project.xcworkspace/xcuserdata/
+Kyngo.xcodeproj/xcuserdata/
+Pods/
+Podfile.lock
+

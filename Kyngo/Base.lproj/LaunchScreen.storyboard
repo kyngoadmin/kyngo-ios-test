@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-1024" translatesAutoresizingMaskIntoConstraints="NO" id="E0c-hO-OjW">
+                                <rect key="frame" x="120" y="-212" width="360" height="1024"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E0c-hO-OjW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="100" id="2Oo-uI-930"/>
+                            <constraint firstItem="E0c-hO-OjW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="7RA-hM-wOa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E0c-hO-OjW" secondAttribute="trailing" constant="100" id="86e-gt-QGl"/>
+                            <constraint firstItem="E0c-hO-OjW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NUE-Lu-07D"/>
+                            <constraint firstItem="E0c-hO-OjW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PzG-cs-gVz"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="E0c-hO-OjW" secondAttribute="bottom" constant="100" id="dTD-lr-CLK"/>
+                            <constraint firstItem="E0c-hO-OjW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kJj-mC-w0q"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="E0c-hO-OjW" secondAttribute="bottom" constant="100" id="yif-id-nvJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7RA-hM-wOa"/>
+                                <exclude reference="dTD-lr-CLK"/>
+                                <exclude reference="yif-id-nvJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-1024" width="1024" height="1024"/>
+    </resources>
+</document>
