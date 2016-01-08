@@ -23,4 +23,4 @@ This is a super fun and exciting<sup>*</sup> challenge for you. You have 4 hours
   * Make a tabbed interface containing the above UINavigationController as well as a tab for the current user information (name, email, address, etc.)
 
 
-<sub>*** excitement not guaranteed.**</sub>
+<sub>*excitement not guaranteed.</sub>
