@@ -8,11 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PhotoViewController: UIViewController {
 
+    var photo:Photo!
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if photo != nil {
+            self.title = photo.title
+            self.imageView.setImageWithURL(NSURL(string: photo.url)!)
+        }
     }
 
     override func didReceiveMemoryWarning() {
