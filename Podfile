@@ -1,7 +1,12 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
+platform :ios, '8.0'
+use_frameworks!
+# ignore all warnings from all pods
+inhibit_all_warnings!
 
-pod 'AFNetworking', '~> 3.0'
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'HanekeSwift'
+pod 'MBProgressHUD'
 
 target 'Kyngo' do
 

@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		525177B91C3F273400D29245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177B81C3F273400D29245 /* AppDelegate.swift */; };
-		525177BB1C3F273400D29245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177BA1C3F273400D29245 /* ViewController.swift */; };
+		525177BB1C3F273400D29245 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177BA1C3F273400D29245 /* AlbumsTableViewController.swift */; };
 		525177BE1C3F273400D29245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177BC1C3F273400D29245 /* Main.storyboard */; };
 		525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 525177BF1C3F273400D29245 /* Kyngo.xcdatamodeld */; };
 		525177C31C3F273400D29245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525177C21C3F273400D29245 /* Assets.xcassets */; };
 		525177C61C3F273400D29245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177C41C3F273400D29245 /* LaunchScreen.storyboard */; };
 		525177D11C3F273400D29245 /* KyngoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177D01C3F273400D29245 /* KyngoTests.swift */; };
 		525177DC1C3F273400D29245 /* KyngoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177DB1C3F273400D29245 /* KyngoUITests.swift */; };
+		D58317C91C4C8E9B0077EA90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58317C81C4C8E9B0077EA90 /* UserViewController.swift */; };
+		D58317CD1C4C94BD0077EA90 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58317CC1C4C94BD0077EA90 /* RestAPI.swift */; };
+		D58317CF1C4C96ED0077EA90 /* AlbumDetailsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58317CE1C4C96ED0077EA90 /* AlbumDetailsTableController.swift */; };
+		D58317D11C4CA5DA0077EA90 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58317D01C4CA5DA0077EA90 /* DetailsViewController.swift */; };
+		D96C8DFE5A7694B00FA8E13D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7275960AD11E87ECE8546503 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		525177B51C3F273400D29245 /* Kyngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525177B81C3F273400D29245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		525177BA1C3F273400D29245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525177BA1C3F273400D29245 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
 		525177BD1C3F273400D29245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		525177C01C3F273400D29245 /* Kyngo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kyngo.xcdatamodel; sourceTree = "<group>"; };
 		525177C21C3F273400D29245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		525177D71C3F273400D29245 /* KyngoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyngoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525177DB1C3F273400D29245 /* KyngoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoUITests.swift; sourceTree = "<group>"; };
 		525177DD1C3F273400D29245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7275960AD11E87ECE8546503 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58317C81C4C8E9B0077EA90 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D58317CC1C4C94BD0077EA90 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		D58317CE1C4C96ED0077EA90 /* AlbumDetailsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsTableController.swift; sourceTree = "<group>"; };
+		D58317D01C4CA5DA0077EA90 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D9DE2B882FCD0CF154E76D91 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6D0D62D1030DAE482B5E67 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96C8DFE5A7694B00FA8E13D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BA6D0AC84A229232CE3163C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7275960AD11E87ECE8546503 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		525177AC1C3F273400D29245 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +104,8 @@
 				525177CF1C3F273400D29245 /* KyngoTests */,
 				525177DA1C3F273400D29245 /* KyngoUITests */,
 				525177B61C3F273400D29245 /* Products */,
+				8A0ED2799C4E0C695452B93C /* Pods */,
+				3BA6D0AC84A229232CE3163C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				525177B81C3F273400D29245 /* AppDelegate.swift */,
-				525177BA1C3F273400D29245 /* ViewController.swift */,
+				525177BA1C3F273400D29245 /* AlbumsTableViewController.swift */,
+				D58317CE1C4C96ED0077EA90 /* AlbumDetailsTableController.swift */,
+				D58317D01C4CA5DA0077EA90 /* DetailsViewController.swift */,
+				D58317C81C4C8E9B0077EA90 /* UserViewController.swift */,
+				D58317CC1C4C94BD0077EA90 /* RestAPI.swift */,
 				525177BC1C3F273400D29245 /* Main.storyboard */,
 				525177C21C3F273400D29245 /* Assets.xcassets */,
 				525177C41C3F273400D29245 /* LaunchScreen.storyboard */,
@@ -128,6 +155,15 @@
 			path = KyngoUITests;
 			sourceTree = "<group>";
 		};
+		8A0ED2799C4E0C695452B93C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9DE2B882FCD0CF154E76D91 /* Pods.debug.xcconfig */,
+				DF6D0D62D1030DAE482B5E67 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525177E01C3F273400D29245 /* Build configuration list for PBXNativeTarget "Kyngo" */;
 			buildPhases = (
+				A1B47C57E72F59D88FEA3D19 /* Check Pods Manifest.lock */,
 				525177B11C3F273400D29245 /* Sources */,
 				525177B21C3F273400D29245 /* Frameworks */,
 				525177B31C3F273400D29245 /* Resources */,
+				62CE782176BBC8A53534238E /* Embed Pods Frameworks */,
+				AD9187F918781952627CD621 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +293,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62CE782176BBC8A53534238E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B47C57E72F59D88FEA3D19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9187F918781952627CD621 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		525177B11C3F273400D29245 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525177BB1C3F273400D29245 /* ViewController.swift in Sources */,
+				525177BB1C3F273400D29245 /* AlbumsTableViewController.swift in Sources */,
+				D58317CD1C4C94BD0077EA90 /* RestAPI.swift in Sources */,
+				D58317C91C4C8E9B0077EA90 /* UserViewController.swift in Sources */,
 				525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */,
+				D58317D11C4CA5DA0077EA90 /* DetailsViewController.swift in Sources */,
 				525177B91C3F273400D29245 /* AppDelegate.swift in Sources */,
+				D58317CF1C4C96ED0077EA90 /* AlbumDetailsTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +492,7 @@
 		};
 		525177E11C3F273400D29245 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DE2B882FCD0CF154E76D91 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kyngo/Info.plist;
@@ -412,6 +504,7 @@
 		};
 		525177E21C3F273400D29245 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6D0D62D1030DAE482B5E67 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kyngo/Info.plist;
@@ -488,6 +581,7 @@
 				525177E21C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E31C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +590,7 @@
 				525177E51C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E61C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +599,7 @@
 				525177E81C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
