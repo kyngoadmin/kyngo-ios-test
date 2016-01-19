@@ -52,9 +52,6 @@ class PhotoCell: UITableViewCell {
             txtText.hidden = true
         }
         
-
-
-
     }
 
     func textFieldShouldReturn(textField: UITextField) -> Bool

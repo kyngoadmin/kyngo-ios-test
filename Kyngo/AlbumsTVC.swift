@@ -84,11 +84,8 @@ class AlbumsTVC: UITableViewController, NetworkDelegate, AlbumCellDelegate {
         super.setEditing(editing, animated: animated)
 
         _ = NSTimer.scheduledTimerWithTimeInterval(0.25, target: self, selector: "handleTimer:", userInfo: nil, repeats: false)
-
-        
-
-
     }
+    
     func handleTimer(t: NSTimer)
     {
                 tableView.reloadData()
@@ -112,7 +109,6 @@ class AlbumsTVC: UITableViewController, NetworkDelegate, AlbumCellDelegate {
          cell.lblText.hidden = false
          cell.txtText.hidden = true
         }
-
 
 		cell.lblText.text = dict.objectForKey("title") as! String
 		cell.txtText.text = dict.objectForKey("title") as! String

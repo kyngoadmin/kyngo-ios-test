@@ -65,10 +65,6 @@ class PhotosTVC: UITableViewController,NetworkDelegate,PhotoCellDelegate {
         super.setEditing(editing, animated: animated)
 
         _ = NSTimer.scheduledTimerWithTimeInterval(0.25, target: self, selector: "handleTimer:", userInfo: nil, repeats: false)
-
-
-
-
     }
     func handleTimer(t: NSTimer)
     {
