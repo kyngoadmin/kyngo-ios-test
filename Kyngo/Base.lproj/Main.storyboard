@@ -56,16 +56,29 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="23f-v7-N7O">
+                                            <rect key="frame" x="8" y="5" width="304" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="kFq-ap-zUm" id="YaB-il-P89"/>
+                                            </connections>
+                                        </textField>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottomMargin" secondItem="NrZ-Re-E5E" secondAttribute="bottom" constant="-2" id="1Vd-UK-8fW"/>
                                         <constraint firstItem="NrZ-Re-E5E" firstAttribute="leading" secondItem="ZxS-0x-Z5d" secondAttribute="leadingMargin" id="BmS-Wj-QM8"/>
                                         <constraint firstItem="NrZ-Re-E5E" firstAttribute="trailing" secondItem="ZxS-0x-Z5d" secondAttribute="trailingMargin" id="BrX-e1-xBt"/>
+                                        <constraint firstItem="23f-v7-N7O" firstAttribute="leading" secondItem="ZxS-0x-Z5d" secondAttribute="leadingMargin" id="CwH-Ec-36e"/>
+                                        <constraint firstItem="23f-v7-N7O" firstAttribute="top" secondItem="ZxS-0x-Z5d" secondAttribute="topMargin" constant="-3" id="RAZ-J2-hRJ"/>
                                         <constraint firstItem="NrZ-Re-E5E" firstAttribute="top" secondItem="ZxS-0x-Z5d" secondAttribute="topMargin" constant="-5" id="ewf-EP-YXi"/>
+                                        <constraint firstItem="23f-v7-N7O" firstAttribute="trailing" secondItem="ZxS-0x-Z5d" secondAttribute="trailingMargin" id="k5B-AO-fXo"/>
+                                        <constraint firstItem="23f-v7-N7O" firstAttribute="bottom" secondItem="ZxS-0x-Z5d" secondAttribute="bottomMargin" id="wYL-CE-YrJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="lblText" destination="NrZ-Re-E5E" id="Nbf-de-qBd"/>
+                                    <outlet property="txtText" destination="23f-v7-N7O" id="xcz-CE-cTJ"/>
                                     <segue destination="AuA-MS-HmZ" kind="show" identifier="toPhotos" id="VQG-gB-LTb"/>
                                 </connections>
                             </tableViewCell>
@@ -111,6 +124,14 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KJo-c4-Boy">
+                                            <rect key="frame" x="63" y="11" width="249" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="64x-b6-LIc" id="F09-Kf-wvy"/>
+                                            </connections>
+                                        </textField>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="b4v-c5-IHB" secondAttribute="bottom" constant="8" id="2PJ-4X-XNH"/>
@@ -124,6 +145,7 @@
                                 <connections>
                                     <outlet property="imView" destination="Dhw-wh-1YH" id="5nD-Pd-hZW"/>
                                     <outlet property="lblText" destination="b4v-c5-IHB" id="LfN-SS-S08"/>
+                                    <outlet property="txtText" destination="KJo-c4-Boy" id="i51-j3-9G0"/>
                                     <segue destination="1QO-nK-tDe" kind="show" identifier="toPhoto" id="t5i-MB-fOn"/>
                                 </connections>
                             </tableViewCell>

@@ -8,9 +8,21 @@
 
 import UIKit
 
+
+@objc protocol PhotoCellDelegate
+{
+    optional func changeTxt(cell: PhotoCell)
+
+}
+
+
 class PhotoCell: UITableViewCell {
 
+     var delegate: PhotoCellDelegate!
+	 weak var indexPath: NSIndexPath!
+
      @IBOutlet weak var lblText: UILabel!
+     @IBOutlet weak var txtText: UITextField!
      @IBOutlet weak var imView:  UIImageView!
 
     override func awakeFromNib() {
@@ -27,8 +39,33 @@ class PhotoCell: UITableViewCell {
 
         let strTitle = dict.objectForKey("title") as! String
         lblText.text = strTitle
+        txtText.text = strTitle
+
+        if (editing)
+        {
+            lblText.hidden = true
+            txtText.hidden = false
+        }
+        else
+        {
+            lblText.hidden = false
+            txtText.hidden = true
+        }
+        
+
+
 
     }
+
+    func textFieldShouldReturn(textField: UITextField) -> Bool
+    {
+        self.txtText .endEditing(true)
+        self.delegate.changeTxt!(self)
+        return false;
+    }
+
+
+    
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

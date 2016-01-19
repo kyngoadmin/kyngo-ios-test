@@ -8,9 +8,19 @@
 
 import UIKit
 
+@objc protocol AlbumCellDelegate
+{
+    optional func changeTxt(cell: AlbumCell)
+
+}
+
+
 class AlbumCell: UITableViewCell {
 
+    var delegate: AlbumCellDelegate!
     @IBOutlet weak var lblText: UILabel!
+    @IBOutlet weak var txtText: UITextField!
+    weak var indexPath: NSIndexPath!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,5 +31,13 @@ class AlbumCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+
+	func textFieldShouldReturn(textField: UITextField) -> Bool
+    {
+        self.txtText .endEditing(true)
+        self.delegate.changeTxt!(self)
+        return false;
+    }
+
 
 }
