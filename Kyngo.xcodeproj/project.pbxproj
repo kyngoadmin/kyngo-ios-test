@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38014A451C50414300F8A0F4 /* KyngoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38014A421C50414300F8A0F4 /* KyngoListViewController.swift */; };
+		38014A461C50414300F8A0F4 /* KyngoDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38014A431C50414300F8A0F4 /* KyngoDetailListViewController.swift */; };
+		38014A471C50414300F8A0F4 /* KyngoItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38014A441C50414300F8A0F4 /* KyngoItemDetailViewController.swift */; };
 		525177B91C3F273400D29245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177B81C3F273400D29245 /* AppDelegate.swift */; };
 		525177BB1C3F273400D29245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177BA1C3F273400D29245 /* ViewController.swift */; };
 		525177BE1C3F273400D29245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177BC1C3F273400D29245 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38014A421C50414300F8A0F4 /* KyngoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyngoListViewController.swift; sourceTree = "<group>"; };
+		38014A431C50414300F8A0F4 /* KyngoDetailListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyngoDetailListViewController.swift; sourceTree = "<group>"; };
+		38014A441C50414300F8A0F4 /* KyngoItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyngoItemDetailViewController.swift; sourceTree = "<group>"; };
 		525177B51C3F273400D29245 /* Kyngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525177B81C3F273400D29245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525177BA1C3F273400D29245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 		525177AC1C3F273400D29245 = {
 			isa = PBXGroup;
 			children = (
+				38014A421C50414300F8A0F4 /* KyngoListViewController.swift */,
+				38014A431C50414300F8A0F4 /* KyngoDetailListViewController.swift */,
+				38014A441C50414300F8A0F4 /* KyngoItemDetailViewController.swift */,
 				525177B71C3F273400D29245 /* Kyngo */,
 				525177CF1C3F273400D29245 /* KyngoTests */,
 				525177DA1C3F273400D29245 /* KyngoUITests */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38014A461C50414300F8A0F4 /* KyngoDetailListViewController.swift in Sources */,
 				525177BB1C3F273400D29245 /* ViewController.swift in Sources */,
 				525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */,
+				38014A471C50414300F8A0F4 /* KyngoItemDetailViewController.swift in Sources */,
 				525177B91C3F273400D29245 /* AppDelegate.swift in Sources */,
+				38014A451C50414300F8A0F4 /* KyngoListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				525177E21C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E31C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				525177E51C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E61C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				525177E81C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
