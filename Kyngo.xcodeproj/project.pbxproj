@@ -15,6 +15,23 @@
 		525177C61C3F273400D29245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525177C41C3F273400D29245 /* LaunchScreen.storyboard */; };
 		525177D11C3F273400D29245 /* KyngoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177D01C3F273400D29245 /* KyngoTests.swift */; };
 		525177DC1C3F273400D29245 /* KyngoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525177DB1C3F273400D29245 /* KyngoUITests.swift */; };
+		6561BE755073527365393513 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB7D3D44951010C152BFFA8 /* libPods.a */; };
+		D92B6D671C5143B7008C6073 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D661C5143B7008C6073 /* Album.swift */; };
+		D92B6D691C514406008C6073 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D681C514406008C6073 /* Photo.swift */; };
+		D92B6D6B1C514412008C6073 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D6A1C514412008C6073 /* PhotoCell.swift */; };
+		D92B6D6D1C514C53008C6073 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D6C1C514C53008C6073 /* User.swift */; };
+		D92B6D6F1C514D04008C6073 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D6E1C514D04008C6073 /* Address.swift */; };
+		D92B6D731C514FB4008C6073 /* AlbumsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D721C514FB4008C6073 /* AlbumsController.swift */; };
+		D92B6D781C515647008C6073 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D771C515647008C6073 /* ApiManager.swift */; };
+		D92B6D7A1C515ED9008C6073 /* NameValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D791C515ED9008C6073 /* NameValueCell.swift */; };
+		D92B6D7C1C515F92008C6073 /* CurrentUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D7B1C515F92008C6073 /* CurrentUserController.swift */; };
+		D92B6D7E1C516039008C6073 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D7D1C516039008C6073 /* AppState.swift */; };
+		D92B6D801C516137008C6073 /* ObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D7F1C516137008C6073 /* ObjectConvertible.swift */; };
+		D92B6D831C517438008C6073 /* ChangeUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6D821C517438008C6073 /* ChangeUserController.swift */; };
+		D92B6DA51C517D39008C6073 /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6DA41C517D39008C6073 /* PhotosController.swift */; };
+		D92B6DA71C517E1C008C6073 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6DA61C517E1C008C6073 /* PhotoDetailController.swift */; };
+		D92B6DAB1C518FA3008C6073 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6DAA1C518FA3008C6073 /* Library.swift */; };
+		D92B6DAD1C51A109008C6073 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B6DAC1C51A109008C6073 /* Company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024102AB29BBF3EF59A52275 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		525177B51C3F273400D29245 /* Kyngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525177B81C3F273400D29245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525177BA1C3F273400D29245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,25 @@
 		525177D71C3F273400D29245 /* KyngoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyngoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525177DB1C3F273400D29245 /* KyngoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoUITests.swift; sourceTree = "<group>"; };
 		525177DD1C3F273400D29245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB7D3D44951010C152BFFA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77012DE63B4560985FFE314 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D92B6D661C5143B7008C6073 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		D92B6D681C514406008C6073 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D92B6D6A1C514412008C6073 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D92B6D6C1C514C53008C6073 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D92B6D6E1C514D04008C6073 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		D92B6D721C514FB4008C6073 /* AlbumsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsController.swift; sourceTree = "<group>"; };
+		D92B6D741C51502D008C6073 /* Kyngo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kyngo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D92B6D771C515647008C6073 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D92B6D791C515ED9008C6073 /* NameValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameValueCell.swift; sourceTree = "<group>"; };
+		D92B6D7B1C515F92008C6073 /* CurrentUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserController.swift; sourceTree = "<group>"; };
+		D92B6D7D1C516039008C6073 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D92B6D7F1C516137008C6073 /* ObjectConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectConvertible.swift; sourceTree = "<group>"; };
+		D92B6D821C517438008C6073 /* ChangeUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUserController.swift; sourceTree = "<group>"; };
+		D92B6DA41C517D39008C6073 /* PhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosController.swift; sourceTree = "<group>"; };
+		D92B6DA61C517E1C008C6073 /* PhotoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		D92B6DAA1C518FA3008C6073 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		D92B6DAC1C51A109008C6073 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6561BE755073527365393513 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +121,8 @@
 				525177CF1C3F273400D29245 /* KyngoTests */,
 				525177DA1C3F273400D29245 /* KyngoUITests */,
 				525177B61C3F273400D29245 /* Products */,
+				D7DC52D1EF71CCF4F32A324A /* Pods */,
+				A62596468719960CEF90957D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +139,18 @@
 		525177B71C3F273400D29245 /* Kyngo */ = {
 			isa = PBXGroup;
 			children = (
+				D92B6D651C514329008C6073 /* Controllers */,
+				D92B6D641C514324008C6073 /* Views */,
+				D92B6D631C51431C008C6073 /* Models */,
 				525177B81C3F273400D29245 /* AppDelegate.swift */,
-				525177BA1C3F273400D29245 /* ViewController.swift */,
+				D92B6D7D1C516039008C6073 /* AppState.swift */,
+				D92B6D771C515647008C6073 /* ApiManager.swift */,
 				525177BC1C3F273400D29245 /* Main.storyboard */,
 				525177C21C3F273400D29245 /* Assets.xcassets */,
 				525177C41C3F273400D29245 /* LaunchScreen.storyboard */,
 				525177C71C3F273400D29245 /* Info.plist */,
 				525177BF1C3F273400D29245 /* Kyngo.xcdatamodeld */,
+				D92B6D741C51502D008C6073 /* Kyngo-Bridging-Header.h */,
 			);
 			path = Kyngo;
 			sourceTree = "<group>";
@@ -128,6 +173,67 @@
 			path = KyngoUITests;
 			sourceTree = "<group>";
 		};
+		A62596468719960CEF90957D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7D3D44951010C152BFFA8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7DC52D1EF71CCF4F32A324A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				024102AB29BBF3EF59A52275 /* Pods.debug.xcconfig */,
+				D77012DE63B4560985FFE314 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D92B6D631C51431C008C6073 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D92B6D811C516241008C6073 /* Protocols */,
+				D92B6D6E1C514D04008C6073 /* Address.swift */,
+				D92B6DAC1C51A109008C6073 /* Company.swift */,
+				D92B6D661C5143B7008C6073 /* Album.swift */,
+				D92B6DAA1C518FA3008C6073 /* Library.swift */,
+				D92B6D681C514406008C6073 /* Photo.swift */,
+				D92B6D6C1C514C53008C6073 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D92B6D641C514324008C6073 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D92B6D791C515ED9008C6073 /* NameValueCell.swift */,
+				D92B6D6A1C514412008C6073 /* PhotoCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D92B6D651C514329008C6073 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D92B6D721C514FB4008C6073 /* AlbumsController.swift */,
+				D92B6D821C517438008C6073 /* ChangeUserController.swift */,
+				D92B6D7B1C515F92008C6073 /* CurrentUserController.swift */,
+				D92B6DA61C517E1C008C6073 /* PhotoDetailController.swift */,
+				D92B6DA41C517D39008C6073 /* PhotosController.swift */,
+				525177BA1C3F273400D29245 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D92B6D811C516241008C6073 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D92B6D7F1C516137008C6073 /* ObjectConvertible.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525177E01C3F273400D29245 /* Build configuration list for PBXNativeTarget "Kyngo" */;
 			buildPhases = (
+				60E4204B7494B0DF21D466CC /* Check Pods Manifest.lock */,
 				525177B11C3F273400D29245 /* Sources */,
 				525177B21C3F273400D29245 /* Frameworks */,
 				525177B31C3F273400D29245 /* Resources */,
+				2CE90D586B93912B6B59A111 /* Embed Pods Frameworks */,
+				F81873198A936C0A8466FBC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +363,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CE90D586B93912B6B59A111 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E4204B7494B0DF21D466CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F81873198A936C0A8466FBC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		525177B11C3F273400D29245 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92B6DAD1C51A109008C6073 /* Company.swift in Sources */,
+				D92B6D801C516137008C6073 /* ObjectConvertible.swift in Sources */,
+				D92B6DA71C517E1C008C6073 /* PhotoDetailController.swift in Sources */,
 				525177BB1C3F273400D29245 /* ViewController.swift in Sources */,
+				D92B6D731C514FB4008C6073 /* AlbumsController.swift in Sources */,
 				525177C11C3F273400D29245 /* Kyngo.xcdatamodeld in Sources */,
 				525177B91C3F273400D29245 /* AppDelegate.swift in Sources */,
+				D92B6D671C5143B7008C6073 /* Album.swift in Sources */,
+				D92B6D7C1C515F92008C6073 /* CurrentUserController.swift in Sources */,
+				D92B6D6B1C514412008C6073 /* PhotoCell.swift in Sources */,
+				D92B6D781C515647008C6073 /* ApiManager.swift in Sources */,
+				D92B6DAB1C518FA3008C6073 /* Library.swift in Sources */,
+				D92B6D691C514406008C6073 /* Photo.swift in Sources */,
+				D92B6D7E1C516039008C6073 /* AppState.swift in Sources */,
+				D92B6D7A1C515ED9008C6073 /* NameValueCell.swift in Sources */,
+				D92B6D6F1C514D04008C6073 /* Address.swift in Sources */,
+				D92B6D6D1C514C53008C6073 /* User.swift in Sources */,
+				D92B6D831C517438008C6073 /* ChangeUserController.swift in Sources */,
+				D92B6DA51C517D39008C6073 /* PhotosController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +574,30 @@
 		};
 		525177E11C3F273400D29245 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024102AB29BBF3EF59A52275 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Kyngo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.Kyngo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kyngo/Kyngo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		525177E21C3F273400D29245 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77012DE63B4560985FFE314 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Kyngo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyngo.Kyngo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kyngo/Kyngo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +668,7 @@
 				525177E21C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E31C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +677,7 @@
 				525177E51C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525177E61C3F273400D29245 /* Build configuration list for PBXNativeTarget "KyngoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +686,7 @@
 				525177E81C3F273400D29245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
